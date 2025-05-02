@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { Link, Outlet } from "react-router-dom";
+import salad from "../../Assets/Images/صور-تقديم-سلطة-خضراء-3.jpg";
 class Gallary extends Component {
   state = {};
   render() {
@@ -19,6 +20,8 @@ class Gallary extends Component {
             <Outlet></Outlet>
           </div>
         </div>
+
+        <img src={salad} alt="salad" width={300} />
       </>
     );
   }
